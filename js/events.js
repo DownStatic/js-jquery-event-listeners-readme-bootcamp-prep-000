@@ -1,19 +1,19 @@
 //define functions here
 
 function getIt(){
-  $('p').on("click"){
+  $('p').on("click", function()){
     alert("Hey!")
   }
 }
 
 function frameIt(){
-  $('img').on("load"){
+  $('img').on("load", function()){
     $('img').append(".tasty")
   }
 }
 
 function pressIt(){
-  
+  $('')
 }
 
 $(document).ready(function(){
