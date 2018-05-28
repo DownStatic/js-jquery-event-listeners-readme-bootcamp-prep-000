@@ -6,7 +6,11 @@ function getIt(){
   }
 }
 
-
+function frameIt(){
+  $('.tasty').on("load"){
+    
+  }
+}
 
 $(document).ready(function(){
 
