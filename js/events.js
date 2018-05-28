@@ -7,10 +7,12 @@ function getIt(){
 }
 
 function frameIt(){
-  $('.tasty').on("load"){
-    
+  $('img').on("load"){
+    $('img').append(".tasty")
   }
 }
+
+
 
 $(document).ready(function(){
 
