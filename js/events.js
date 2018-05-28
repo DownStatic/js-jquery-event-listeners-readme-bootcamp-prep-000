@@ -13,9 +13,15 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form').on("keydown", function(){
-    if ()
+  $('form').on("keydown", function(key){
+    if (key.key == G){
+      alert("You have pressed the G key!")
+    }
   })
+}
+
+function submitIt(){
+  
 }
 
 $(document).ready(function(){
